@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.kiddobuild.dev)",
+      "Bash(curl -sL -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" https://www.kiddobuild.dev/)",
+      "Bash(curl -sL -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" https://www.kiddobuild.dev/assets/index-Cm9ztJtj.css)",
+      "Bash(curl -sL -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" https://www.kiddobuild.dev/assets/index-CQR0zWB1.js)",
+      "Bash(npm create:*)",
+      "Bash(mv /Users/favor/Projects/Favor-portfolio/portfolio-temp/* /Users/favor/Projects/Favor-portfolio/portfolio-temp/.* /Users/favor/Projects/Favor-portfolio/)",
+      "Bash(rm -rf /Users/favor/Projects/Favor-portfolio/portfolio-temp)",
+      "Bash(npm install:*)",
+      "Bash(npx vite:*)",
+      "Bash(node -e \"const l = require\\(''lucide-react''\\); console.log\\(Object.keys\\(l\\).filter\\(k => k.toLowerCase\\(\\).includes\\(''github''\\) || k.toLowerCase\\(\\).includes\\(''linkedin''\\) || k.toLowerCase\\(\\).includes\\(''twitter''\\)\\).join\\(''\\\\n''\\)\\)\")",
+      "Bash(npm ls:*)",
+      "Bash(node -e \"import\\(''lucide-react''\\).then\\(m => { const keys = Object.keys\\(m\\).filter\\(k => /git|linked|twit/i.test\\(k\\)\\); console.log\\(keys.join\\(''\\\\n''\\)\\); }\\)\")",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(curl -s http://localhost:5173/src/main.jsx)",
+      "Bash(lsof -ti:5173,5174)",
+      "Bash(xargs kill:*)",
+      "Bash(npm run:*)",
+      "Bash(lsof -ti:5173)",
+      "Bash(gh auth:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
